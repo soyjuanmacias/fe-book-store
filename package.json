@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/soyjuanmacias/fe-book-store/issues"
   },
-  "homepage": "https://github.com/soyjuanmacias/fe-book-store#readme"
+  "homepage": "https://github.com/soyjuanmacias/fe-book-store#readme",
+  "devDependencies": {
+    "commitizen": "^3.0.4",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
