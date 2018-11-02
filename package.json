@@ -1,0 +1,26 @@
+{
+  "name": "react-fe-book-store",
+  "version": "1.0.0",
+  "description": "App made from scratch with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyjuanmacias/fe-book-store.git"
+  },
+  "keywords": [
+    "react",
+    "test",
+    "fe",
+    "book",
+    "store"
+  ],
+  "author": "Juan Macías",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soyjuanmacias/fe-book-store/issues"
+  },
+  "homepage": "https://github.com/soyjuanmacias/fe-book-store#readme"
+}
