@@ -265,12 +265,12 @@ rules:
   # Styles for components should never need the universal selector.
   selector-max-universal: 0
   # Ensure any defined symbols are prefixed with "op-"
-  custom-media-pattern: ^op-.+
-  custom-property-pattern: ^op-.+
+  custom-media-pattern: ^bs-.+
+  custom-property-pattern: ^bs-.+
   selector-class-pattern:
-    - ^op-.+
+    - ^bs-.+
     - resolveNestedSelectors: true
-  selector-id-pattern: ^op-.+
+  selector-id-pattern: ^bs-.+
   # Names are more semantic than numbers
   font-weight-notation: named-where-possible
   # http://www.paulirish.com/2010/the-protocol-relative-url/
@@ -311,8 +311,8 @@ rules:
   scss/dollar-variable-pattern:
     - ^_?op-.+
     - ignore: local
-  scss/at-function-pattern: ^op-.+
-  scss/at-mixin-pattern: ^op-.+
+  scss/at-function-pattern: ^bs-.+
+  scss/at-mixin-pattern: ^bs-.+
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
   # Since leading underscores are not needed, they can be omitted

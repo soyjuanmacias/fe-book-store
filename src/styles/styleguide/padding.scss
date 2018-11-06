@@ -1,0 +1,11 @@
+@import "~sass-rem/rem";
+/* stylelint-disable */
+:root {
+  --margin-tiny: rem(10px);
+  --margin-small: rem(15px);
+  --margin-medium: rem(20px);
+  --margin-large: rem(40px);
+  --margin-big: rem(60px);
+  --margin-huge: rem(100px);
+}
+/* stylelint-enable */

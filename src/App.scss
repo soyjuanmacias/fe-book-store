@@ -1,0 +1,21 @@
+@import "./styles/index.scss"; /* stylelint-ignore */
+
+body,
+html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  outline: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
