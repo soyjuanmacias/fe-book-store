@@ -9,7 +9,7 @@ const loadApp = (rootDiv) => {
 }
 const rootDiv = document.getElementById('root');
 if(rootDiv) {
-  loadApp(rootDiv);
+  loadApp(rootDiv)
 } else {
-  throw new Error(TEXT_ERROR_LOADING_APP);
+  throw new Error(TEXT_ERROR_LOADING_APP)
 }
