@@ -1,0 +1,10 @@
+@import "~sass-rem/rem";
+/* stylelint-disable */
+:root {
+  --font-tiny: rem(8px);
+  --font-small: rem(16px);
+  --font-medium: rem(24px);
+  --font-large: rem(32px);
+  --font-huge: rem(48px);
+}
+/* stylelint-enable */

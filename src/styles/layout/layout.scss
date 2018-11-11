@@ -20,6 +20,11 @@
   height: 100%;
 }
 
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
 .none {
   flex: none;
 }
