@@ -11,11 +11,11 @@ module.exports = (env, argv) => {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
           use: {
-            loader: "babel-loader",
+            loader: 'babel-loader',
             options: {
-              presets: ['@babel/preset-env']
-            }
-          }
+              presets: ['@babel/preset-env'],
+            },
+          },
         },
         {
           test: /\.html$/,
@@ -34,13 +34,13 @@ module.exports = (env, argv) => {
                 modules: true,
                 sourceMap: true,
                 importLoaders: 1,
-                localIdentName: '[local]'
-              }
+                localIdentName: '[local]',
+              },
             },
             'sass-loader',
-          ]
+          ],
         },
-      ]
+      ],
     },
     resolve: {
       extensions: ['.js', '.jsx'],
@@ -56,5 +56,5 @@ module.exports = (env, argv) => {
         chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
       }),
     ],
-  }
+  };
 };
