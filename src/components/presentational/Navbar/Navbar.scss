@@ -1,0 +1,21 @@
+.bs-navbar {
+  padding: var(--padding-small) var(--padding-medium);
+  background-color: cornsilk;
+
+  &__logo {
+    cursor: pointer;
+  }
+
+  &__menu {
+    justify-content: flex-end;
+
+    &__menulist {
+      padding: var(--padding-small) 0;
+
+      &__menuitem {
+        padding-right: var(--padding-small);
+        font-size: var(--font-medium);
+      }
+    }
+  }
+}
