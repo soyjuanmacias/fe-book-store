@@ -5,6 +5,7 @@ const path = require('path');
 module.exports = (env, argv) => {
   const devMode = argv.mode && argv.mode === 'development';
   return {
+    target: 'web',
     module: {
       rules: [
         {
