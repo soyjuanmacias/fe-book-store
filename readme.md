@@ -1,6 +1,6 @@
 # FE Book Store
 
-### Instalado
+### Project configuration from scratch
 - 📦 commitizen and 📦 cz-conventional-changelog for cli commit interface and as changelog auto create.
 - 📦 standard-version for launch releases.
 - 📦 husky to handle git hooks (pre-commit and commit-msg).
